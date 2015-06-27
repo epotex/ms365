@@ -254,7 +254,7 @@ def get_cal(url,tz):
     result = urllib2.urlopen(request)
     data =  json.load(result)
     if data[values]:
-       file.write("Here is the meetings informatio for ")
+       file.write("Here is the meetings information for ")
        file.write(time)
        file.write(",")
        file.write("\n")
