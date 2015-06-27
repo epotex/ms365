@@ -39,9 +39,9 @@ urltomorrow = baseurl+str(tomorrow)+add+str(dayaftertomorrow)
 
 def usage():
     print "Usage:"
-    print "365cal.py [-u] usearname@domain.com [-p] password [-t] time"
+    print "365cal.py [-u] usearname@domain.com [-p] password [-t] time  [-tz] timezone"
     print "Example:"
-    print "365cal.py -u jhon@office365.com -p password -t today"
+    print "365cal.py -u jhon@office365.com -p password -t today -tz est"
     print " "
     print "Currently the following time supported:"
     print "1.today"
