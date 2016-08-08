@@ -51,6 +51,7 @@ def usage():
 re1='.*?'    # Non-greedy match on filler
 re2='((?:(?:[0-1][0-9])|(?:[2][0-3])|(?:[0-9])):(?:[0-5][0-9])(?::[0-5][0-9])?(?:\\s?(?:am|AM|pm|PM))?)'    # HourMinuteSec 1
 rg = re.compile(re1+re2,re.IGNORECASE|re.DOTALL)
+#POC to be replace with better code to remove hardcoded time
 hoursedt = {"00:00:00": "8 PM",
          "00:15:00": "8 fifteen PM",
          "00:30:00": "8 thirty PM",
